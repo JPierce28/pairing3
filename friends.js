@@ -7,3 +7,9 @@ for (var i = 0; i < arrayLength; i++) {
     console.log(number[i]);
   }
 };
+var arrayLength = number.length;
+for (var i = 0; i < arrayLength; i++) {
+  if (number[i] < 60) {
+    console.log(number[i]);
+  }
+}
